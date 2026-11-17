@@ -4,7 +4,7 @@ const router = express.Router();
 
 function checkUser(req:Request,res:Response,next:NextFunction){
     console.log("checking user");
-    next()
+    next();
 }
 
 router.use(checkUser)
